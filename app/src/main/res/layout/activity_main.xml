@@ -77,8 +77,15 @@
             android:id="@+id/buttonDangNhap"
             android:layout_width="127dp"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="50pt"
+            android:layout_marginLeft="30pt"
             android:text="Đăng nhập" />
-
+        <Button
+            android:id="@+id/btnThoat"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10pt"
+            android:text="Thoát"
+            android:background="@android:color/holo_red_light"
+            />
     </LinearLayout>
 </LinearLayout>

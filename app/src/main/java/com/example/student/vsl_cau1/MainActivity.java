@@ -34,29 +34,29 @@ public class MainActivity extends AppCompatActivity {
                 thongbao1.show();
             }
         });
-//        btnThoat=(Button)findViewById(R.id.buttonThoat);
-//        thongbao2=new AlertDialog.Builder(this);
-//        thongbao2.setTitle("Thông báo");
-//        btnThoat.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View view) {
-//                thongbao2.setMessage("Bạn có muốn thoát không ?");
-//                thongbao2.setPositiveButton("Yes", new DialogInterface.OnClickListener() {
-//                    @Override
-//                    public void onClick(DialogInterface dialogInterface, int i) {
-//
-//                    }
-//                });
-//                thongbao2.setNegativeButton("No", new DialogInterface.OnClickListener() {
-//                    @Override
-//                    public void onClick(DialogInterface dialogInterface, int i) {
-//
-//                    }
-//                });
-//                thongbao2.show();
-//            }
-//
-//        });
+        btnThoat=(Button)findViewById(R.id.btnThoat);
+        thongbao2=new AlertDialog.Builder(this);
+        thongbao2.setTitle("Thông báo");
+        btnThoat.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                thongbao2.setMessage("Bạn có muốn thoát không ?");
+                thongbao2.setPositiveButton("Yes", new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialogInterface, int i) {
+
+                    }
+                });
+                thongbao2.setNegativeButton("No", new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialogInterface, int i) {
+
+                    }
+                });
+                thongbao2.show();
+            }
+
+        });
 
     }
 }
